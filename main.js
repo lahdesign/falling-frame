@@ -1,3 +1,7 @@
+const addHandlers = () => {
+    $('#button').on('click', onButtonClick)
+  }
+
 const onButtonClick = function () {
    console.log('got into function')
     // $('#message').text('Welcome to the moon.')
@@ -5,8 +9,4 @@ const onButtonClick = function () {
     // setTimeout(() => $('#message').text(''), 3000)
     $('.front-card').addClass('animate__animated', 'animate__bounceOutLeft');
     // $('#welcomePage').addClass('animated rollIn')
-  }
-
-const addHandlers = () => {
-    $('#button').on('click', onButtonClick)
   }
