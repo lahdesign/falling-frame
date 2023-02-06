@@ -10,3 +10,6 @@ const onButtonClick = function () {
     $('.front-card').addClass('animate__animated', 'animate__bounceOutLeft');
     // $('#welcomePage').addClass('animated rollIn')
   }
+  $(() => {
+    addHandlers()
+  })
