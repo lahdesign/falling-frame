@@ -10,7 +10,3 @@ const onButtonClick = function () {
 const addHandlers = () => {
     $('#button').on('click', onButtonClick)
   }
-
-  $(() => {
-    addHandlers()
-  })
