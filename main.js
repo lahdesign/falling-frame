@@ -3,7 +3,7 @@ const onButtonClick = function () {
     // $('#message').text('Welcome to the moon.')
     // $('#message').css('background-Color', 'blue')
     // setTimeout(() => $('#message').text(''), 3000)
-    $('.front-card').addClass('animated hinge');
+    $('.front-card').addClass('animate__animated', 'animate__bounceOutLeft');
     // $('#welcomePage').addClass('animated rollIn')
   }
 
